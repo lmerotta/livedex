@@ -1,16 +1,20 @@
-import React from 'react'
-import { useResource } from 'rest-hooks'
-import TypeResource from './resources/Type'
-import { Badge } from '../ui'
+import React from "react";
+import { useResource } from "rest-hooks";
+import TypeResource from "./resources/Type";
+import { Badge } from "../ui";
 
 type TypeProps = {
-  name: string
-}
+  name: string;
+};
 
 const Type: React.FC<TypeProps> = ({ name }) => {
-  const type = useResource(TypeResource.detailShape(), { name })
+  const type = useResource(TypeResource.detailShape(), { name });
 
-  return <Badge className={`${type.getColors()} cursor-pointer`}>{type.getName()}</Badge>
-}
+  return (
+    <Badge className={`${type.getColors()} cursor-pointer`}>
+      {type.getName()}
+    </Badge>
+  );
+};
 
-export default Type
+export default Type;

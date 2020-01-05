@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Card: React.FC = ({ children }) => (
   <div className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6 px-2 my-2">
@@ -6,6 +6,6 @@ const Card: React.FC = ({ children }) => (
       {children}
     </div>
   </div>
-)
+);
 
-export default Card
+export default Card;
