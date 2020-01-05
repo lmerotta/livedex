@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Species unit tests Renders the species when the resource is fetched 1`] = `
+<DocumentFragment>
+  <div
+    class="infinite-scroll-component__outerdiv"
+  >
+    <div
+      class="infinite-scroll-component "
+      style="height: auto; overflow: auto;"
+    >
+      <div
+        class="flex flex-wrap"
+      >
+        <div>
+          bulbasaur
+        </div>
+      </div>
+      <div
+        class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/6 px-2 my-2"
+      >
+        <div
+          class="flex flex-col shadow-md rounded px-4 py-2 hover:shadow-xl"
+        >
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="h-24 w-24 self-center mb-2"
+            >
+              <span>
+                <span
+                  class="css-19bon8n react-loading-skeleton"
+                  style="animation: animation-16jpnkj 1.2s ease-in-out infinite; width: 96px; height: 96px;"
+                >
+                  ‌
+                </span>
+              </span>
+            </div>
+            <h4
+              class="text-sm leading-normal break-all"
+            >
+              <span>
+                <span
+                  class="css-19bon8n react-loading-skeleton"
+                  style="animation: animation-16jpnkj 1.2s ease-in-out infinite; width: 40%;"
+                >
+                  ‌
+                </span>
+              </span>
+            </h4>
+            <p
+              class="text-xs md:text-sm text-gray-400 leading-none"
+            >
+              <span>
+                <span
+                  class="css-19bon8n react-loading-skeleton"
+                  style="animation: animation-16jpnkj 1.2s ease-in-out infinite; width: 50%;"
+                >
+                  ‌
+                </span>
+              </span>
+            </p>
+            <div
+              class="my-3"
+            >
+              <span>
+                <span
+                  class="css-19bon8n react-loading-skeleton"
+                  style="animation: animation-16jpnkj 1.2s ease-in-out infinite; width: 30%;"
+                >
+                  ‌
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { NetworkErrorBoundary, useResource } from "rest-hooks";
 import InfiniteScroll from "react-infinite-scroll-component";
 import useNextPage from "./utils/useNextPage";
+import { CardContainer } from "./ui";
 import SpeciesListResource from "./pokedex/resources/SpeciesList";
 import SpeciesPlaceholder from "./pokedex/placeholders/SpeciesPlaceholder";
 
@@ -20,13 +21,13 @@ const App: React.FC = () => {
         scrollThreshold="150px"
         loader={<SpeciesPlaceholder />}
       >
-        <div className="flex flex-wrap">
+        <CardContainer>
           {list.results.map(r => (
             <Suspense key={r.name} fallback={<SpeciesPlaceholder />}>
               <SpeciesLazy name={r.name} />
             </Suspense>
           ))}
-        </div>
+        </CardContainer>
       </InfiniteScroll>
     </NetworkErrorBoundary>
   );

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Type unit tests Renders correctly 1`] = `
+<DocumentFragment>
+  <span
+    class="bg-yellow-700 hover:bg-yellow-800 text-white cursor-pointer rounded-full py-1 px-2 text-xs mr-1"
+  >
+    Roche
+  </span>
+</DocumentFragment>
+`;
